@@ -1,0 +1,9 @@
+### MERGE AND SORT TWO LIST
+list1=[1,2,5]
+list2=[3,6,4]
+merge=list1+list2
+for i in range(len(merge)):
+   for j in range(i+1,len(merge)):
+         if merge[i]>merge[j]:
+              merge[i],merge[j]=merge[j],merge[i]
+print("merged and sorted list:",merge)
