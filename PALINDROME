@@ -1,0 +1,8 @@
+### CHECK IF LIST IS A PALINDROME OR NOT 
+lst=[1,2,3,2,1]
+is_palindrome= True
+for i in range (len(lst)//2):
+   if lst[i]!= lst[-(i+1)]:
+       is_palindrome = false
+       break
+print("is palindrome:",is_palindrome)
